@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeblock",
+  "version": "1.0.0",
+  "name": "Fake Block",
+  "description": "Client-side only: visually swap a block and open a fake menu when you right click it.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.fakeblock.FakeBlockMod"]
+  },
+  "mixins": ["fakeblock.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}

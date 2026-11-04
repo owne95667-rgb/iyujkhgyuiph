@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.fakeblock.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientInteractMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
